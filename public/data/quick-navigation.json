@@ -1,0 +1,9 @@
+[
+    { "id": 1, "name": "Senate Chamber", "latitude": 8.145087, "longitude": 4.700104 },
+    { "id": 2, "name": "Registry Department", "latitude": 8.144984, "longitude": 4.700509 },
+    { "id": 3, "name": "Bursary Department", "latitude": 8.144608, "longitude": 4.699953 },
+    { "id": 4, "name": "SUMMIT University Central Mosque", "latitude": 8.145345, "longitude": 4.700912 },
+    { "id": 5, "name": "Library", "latitude": 8.145123, "longitude": 4.700984 },
+    { "id": 6, "name": "Research and Innovation Unit", "latitude": 8.126286, "longitude": 4.689344 },
+    { "id": 7, "name": "University Cafeteria", "latitude": 8.144988, "longitude": 4.699065 }
+]

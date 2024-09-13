@@ -1,0 +1,334 @@
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+
+
+
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: sans-serif;
+}
+.splashContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.homeLink{
+  text-transform: none;
+  text-decoration: none;
+  color: rgb(169, 154, 154);
+
+}
+.splashLogo {
+  margin-bottom: 10px;
+}
+
+.splashText {
+  color: green;
+
+}
+.link{
+  text-decoration: none;
+  text-transform: none;
+  color: black;
+}
+.homepageDashboard {
+  background: rgb(228, 235, 228);
+  height: 100%;
+  width: 100%;
+}
+
+.homepageDashboard::-webkit-scrollbar {
+  display: none;
+}
+
+.homepageDashboard {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  overflow-y: scroll;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: green;
+  align-items: center;
+  box-shadow: 0 2px rgb(211, 211, 222);
+  font-weight: 700;
+  font-size: 1.2rem;
+  width: 100%;
+  background-color: white;
+}
+
+input {
+  display: flex;
+  font-size: 1rem;
+  width: 85%;
+  height: 3rem;
+  border-radius: 6px;
+  outline: none;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgb(200, 197, 197);
+  background-color: white;
+
+}
+
+input[type=text] {
+  padding: 7px 29px;
+}
+
+.hompageContent {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 1rem;
+}
+
+.homepageGo {
+  display: flex;
+  flex-direction: column;
+  margin: 9rem 0 0 0;
+  margin-bottom: 3rem;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.homepageQuickNav {
+  margin-top: 1rem;
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.location {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  height: 5rem;
+  background-color: white;
+  justify-content: space-between;
+  border-radius: 5px;
+  margin-bottom: 3rem;
+}
+
+.locationImg {
+  height: 5rem;
+  margin-right: -1rem;
+}
+
+.locationSpan {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  height: 4rem;
+  
+}
+
+.locationSpan>h3 {
+  margin: 1rem;
+  font-weight: 550;
+  font-size: 1.1rem;
+  margin-bottom: 5px;
+}
+
+.locationSpan>h6 {
+  margin: .3rem 1rem -1rem 1rem;
+  font-size: .67rem;
+  font-weight: 300;
+}
+
+.colourSpan {
+  background: linear-gradient(to left, rgb(149, 222, 149) 0%, transparent 100%);
+  margin-right: -9rem;
+  width: 4rem;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  line-height: 0.1;
+  font-size: 12px;
+  margin-top: 2rem;
+  gap: 2rem;
+  color: rgb(169, 167, 167);
+  margin-bottom: 6rem;
+}
+/* HomePage.module.css */
+
+.mapSearch {
+  display: flex;
+  flex-direction: column;
+  height: 100vh; 
+}
+
+.map {
+  flex: 4; 
+  position: relative; 
+}
+
+.mapContent {
+  flex: 3; 
+  background-color: white;
+  border-radius: 4rem;
+
+
+}
+.homepageGoTo{
+  display: flex;
+  flex-direction: row;
+  padding: 1rem;
+  margin-top: 1rem;
+align-items: center;
+}
+.homepageGoTo>span:nth-child(1){
+  flex: 1;
+}
+.homepageGoTo>span:nth-child(2){
+  flex:2;
+  font-size: 0.9rem;
+}
+.homepage1Location{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.homepage1Location>div>span>input:nth-child(1){
+  border: none;
+
+}
+hr{
+  border: none;
+  border-top: 2px dashed  #000;
+  margin: 20px 0;
+}
+.HomepageMeansoftrans{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1rem;
+  align-items: center;
+}
+.HomepageMeansoftrans>button{
+  color: green;
+  background-color: #EFFAF1;
+  padding:6px;
+  padding: 3px 14px;
+  border: none;
+  outline:1px solid rgb(195, 220, 195) ;
+  outline: none;
+}
+.homepagePlacesBtn{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+}
+.homepagePlacesBtn>button{
+  border: none;
+  outline: none;
+  padding: 9px 19px;
+  border-radius: 6px;
+}
+.homepagePlacesBtn>button:nth-child(1){
+  color: #EFFAF1;
+  background-color: rgb(82, 197, 82);
+  
+}
+.homepagePlacesBtn>button:nth-child(2){
+  color: green;
+  background-color: #EFFAF1;
+
+}
+
+@media (max-width: 412px) {
+  input {
+    display: flex;
+    font-size: 1rem;
+    width: 85%;
+    height: 3rem;
+    border-radius: 7px;
+    outline: none;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(200, 197, 197);
+    background-color: white;
+  
+  }
+
+  
+.location {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  height: 5rem;
+  background-color: white;
+  justify-content: space-between;
+  border-radius: 5px;
+  margin-bottom: 3rem;
+}
+.colourSpan {
+  background: linear-gradient(to left, rgb(149, 222, 149) 0%, transparent 100%);
+  margin-right: -5rem;
+  width: 4rem;
+}
+
+}
+.splashGO{
+  color: white;
+  background-color: rgb(74, 179, 74);
+  padding: 10px 3rem;
+  outline: none;
+  border: none;
+  margin-top: 1rem;
+  border-radius: 2px;
+}
+.splashLink{
+  color: white;
+
+  text-decoration: none;
+  text-transform: none;
+}

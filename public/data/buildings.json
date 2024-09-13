@@ -1,0 +1,19 @@
+[
+    { "id": 1, "name": "Senate Chamber", "latitude": 8.145087, "longitude": 4.700104 },
+    { "id": 2, "name": "Registry Department", "latitude": 8.144984, "longitude": 4.700509 },
+    { "id": 3, "name": "Bursary Department", "latitude": 8.144608, "longitude": 4.699953 },
+    { "id": 4, "name": "SUMMIT University Central Mosque", "latitude": 8.145345, "longitude": 4.700912 },
+    { "id": 5, "name": "Library", "latitude": 8.145123, "longitude": 4.700984 },
+    { "id": 6, "name": "Research and Innovation Unit", "latitude": 8.126286, "longitude": 4.689344 },
+    { "id": 7, "name": "University Cafeteria", "latitude": 8.144988, "longitude": 4.699065 },
+    { "id": 8, "name": "College of Postgraduate Studies (CPS)", "latitude": 8.145383, "longitude": 4.699462 },
+    { "id": 9, "name": "Moremi Hostel", "latitude": 8.143536, "longitude": 4.696471 },
+    { "id": 10, "name": "National Women Council hostel", "latitude": 8.146237, "longitude": 4.695856 },
+    { "id": 11, "name": "Lateefah Okunnu Hostel", "latitude": 8.146308, "longitude": 4.696494 },
+    { "id": 12, "name": "MBashir & Basirat Bello College Building", "latitude": 8.145767, "longitude": 4.698778 },
+    { "id": 13, "name": "Alhaja Adiat Abegbe Makanjuola Lecture Theatre (Adiat Hall)", "latitude": 8.146048, "longitude": 4.698927 },
+    { "id": 14, "name": "Exhibition Room", "latitude": 8.142454, "longitude": 4.696469 },
+    { "id": 15, "name": "College of Innovation and Computing Technology (COICT)", "latitude": 8.129654, "longitude": 4.683212 },
+    { "id": 16, "name": "Entrepreneurship Centre", "latitude": 8.146217, "longitude": 4.700238 },
+    { "id": 17, "name": "Department of Mass Communication", "latitude": 8.145022, "longitude": 4.698578 }
+]
